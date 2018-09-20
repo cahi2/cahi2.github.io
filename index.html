@@ -47,8 +47,9 @@
         <button class="w3-button w3-black w3-display-left" onClick="plusDivs(-1)">&#10094;</button>
         <button class="w3-button w3-black w3-display-right" onClick="plusDivs(1)">&#10095;</button>
       </div>
+
       <script>
-      var SlideIndex = 1;
+      var slideIndex = 1;
       showDivs(SlideIndex);
 
       function plusDivs(n) {
@@ -58,12 +59,12 @@
       function showDivs(n) {
         var i;
         var x = document.getElementsByClassName("slideshow");
-        if (n > x.length){SlideIndex = 1}
-        if (n < 1) {SlideIndex = x.length}
+        if (n > x.length){slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
         for (i = 0; x.length; i++){
           x[i].style.display = "none";
         }
-        x[SlideIndex-1].style.display = "block";
+        x[slideIndex-1].style.display = "block";
       }
 
 
