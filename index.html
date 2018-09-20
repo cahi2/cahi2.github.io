@@ -50,35 +50,9 @@
         <img class ="slideshow" src = "/images/test2.jpg" style="width:100%;">
         <img class ="slideshow" src = "/images/test3.jpg" style="width:100%;">
         <!-- Buttons for slideshow -->
-        <button class="w3-button w3-black w3-display-left" onClick="plusDivs(-1)">&#10094;</button>
-        <button class="w3-button w3-black w3-display-right" onClick="plusDivs(1)">&#10095;</button>
+        <button class="btn btn-primary btn-lg" onClick="plusDivs(-1)">&#10094;</button>
+        <button class="btn btn-primary btn-lg" onClick="plusDivs(1)">&#10095;</button>
       </div>
-
-      <script>
-      var slideIndex = 1;
-      showDivs(slideIndex);
-
-      function plusDivs(n) {
-        showDivs(slideIndex += n);
-      }
-
-      function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("slideshow");
-        if (n > x.length){slideIndex = 1}
-        if (n < 1) {slideIndex = x.length}
-        for (i = 0; i < x.length; i++){
-          x[i].style.display = "none";
-        }
-        x[slideIndex-1].style.display = "block";
-      }
-
-
-      </script>
-
-
-
-
       <p>Next steps</p>
       <ul>
         <li>Change the page title? You probably don't want a site called "My First Website", so change it in index.html - you'll find it in two places, the first is in a &lt;title&gt; tag, the second is further down, in the nav section.</li>
