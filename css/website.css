@@ -4,5 +4,7 @@ body {
 body>div.container {
   width: 80%;
   margin: auto;
+    resize: both;
+    overflow: auto;
 }
 .slideshow {display:none; border:100px solid black;}
