@@ -1,0 +1,18 @@
+<DOCTYPE html>
+  <head>
+    <title> Is it Friday? </title>
+
+  </head>
+  <body>
+    <h1> Is it Friday? </h1>
+    <p id="checker"> </p>
+    <script>
+          var now = new Date();
+          if (now.getDay() === 5){
+            document.getElementById("checker").innerHTML = "It is Friday."
+          }else{
+              document.getElementById("checker").innerHTML = "It is not Friday."
+          }
+         </script>
+
+  </body>
