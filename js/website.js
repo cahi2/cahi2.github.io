@@ -1,13 +1,14 @@
 //Script for the slideshow------------------------------------------------------
 
 var slideIndex = 1;
-showDivs(slideIndex);
 
 function plusDivs(n) {
   showDivs(slideIndex += n);
 }
 
 function showDivs(n) {
+  showDivs(slideIndex);
+
   var i;
   var x = document.getElementsByClassName("slideshow");
   if (n > x.length){slideIndex = 1}
