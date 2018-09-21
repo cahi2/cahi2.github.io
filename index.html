@@ -13,6 +13,10 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="js/website.js"></script>
+
+  <!-- Scripts for the progress bar racer -->
+  <script src="js/addAndRemoveBars.js"></script>
+    <script src="js/ProgressBarRacers.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -48,14 +52,24 @@
 
     <h1>Animated progress bar</h1>
     <p> This is a test for the progess bar, click the button to see it move.</p>
+    <button class="w3-button w3-light-grey" onclick="addRed()">Red</button>
+    <button class="w3-button w3-light-grey" onclick="addYellow()">Yellow</button>
+    <button class="w3-button w3-light-grey" onclick="addGreen()">Green</button>
+      <button class="w3-button w3-light-grey" onclick="addBlue()">Blue</button>
+    <button class="w3-button w3-light-grey" onclick="addPurple()">Purple</button>
+    <button class="w3-button w3-light-grey" onclick="addPink()">Pink</button>
+    <p> </p>
     <div class="w3-light-grey">
-      <div id="racer0" class="w3-container w3-red" style="height:24px;width:1%"></div>
-      <div id="racer1" class="w3-container w3-yellow" style="height:24px;width:1%"></div>
-      <div id="racer2" class="w3-container w3-green" style="height:24px;width:1%"></div>
-      <div id="racer3" class="w3-container w3-blue" style="height:24px;width:1%"></div>
+      <div id="racer0" class="w3-container w3-red" style="height:24px;width:1%; display: none;"></div>
+      <div id="racer1" class="w3-container w3-yellow" style="height:24px;width:1%; display: none;"></div>
+      <div id="racer2" class="w3-container w3-green" style="height:24px;width:1%; display: none;"></div>
+      <div id="racer3" class="w3-container w3-blue" style="height:24px;width:1%; display: none;"></div>
+      <div id="racer4" class="w3-container w3-purple" style="height:24px;width:1%; display: none;"></div>
+      <div id="racer5" class="w3-container w3-pink" style="height:24px;width:1%; display: none;"></div>
 
     </div>
-    <button class="w3-button w3-light-grey" onclick="move()">Click Me</button>
+    <p> <p>
+    <button class="w3-button w3-light-grey" onclick="move()">Race Progress Bars</button>
 
 
     <!-- Images for slideshow -->

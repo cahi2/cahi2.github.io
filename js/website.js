@@ -17,29 +17,3 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";
 }
-
-//Script for the progress bar racer----------------------------------------------
-
-function move() {
-  var bars = [];
-  var width = [];
-  //Loop which declares the variables of the progress bars
-  for (i=0; i<4; i++){
-    bars[i] = document.getElementById("racer"  + i);
-    width[i] = 1;
-  }
-  var id = setInterval(frame, 50);
-
-  function frame() {
-    for (i = 0; i <4; i++){
-      if (width[i] >=100) {
-        clearInterval(id);
-      } else {
-        width[i] = width[i] + Math.round(Math.random());
-        bars[i].style.width = width[i] + '%';
-      }
-    }
-
-
-  }
-}
