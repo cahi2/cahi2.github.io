@@ -16,15 +16,11 @@ function move() {
   //The code which adds to each of the bars width
   function frame() {
     for (i = 0; i <6; i++){
-      if (width[i] >=100) {
-        clearInterval(id);
-      } else {
+      if (width[i] >=100) { clearInterval(id);}
+      else {
         width[i] = width[i] + Math.round(Math.random());
         bars[i].style.width = width[i] + '%';
-        if(bars[i].style.display === "none"){
-          width[i] = 0;
-
-        }
+        if(bars[i].style.display === "none"){ width[i] = 0; }
       }
     }
   }
