@@ -8,3 +8,11 @@ body>div.container {
     overflow: auto;
 }
 .slideshow {display:none; border:100px solid black; width: 100%;}
+
+.main{
+width: 80%;
+padding: 10%;
+padding-top: 5%;
+margin: auto;
+resize: both;
+}
