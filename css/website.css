@@ -10,9 +10,34 @@ body>div.container {
 .slideshow {display:none; border:100px solid black; width: 100%;}
 
 .main{
-width: 80%;
-padding: 10%;
-padding-top: 5%;
+width: 40%;
+padding: 5%;
+padding-left: 0px;
 margin: auto;
 resize: both;
+float: right;
+}
+
+section{
+  width: 60%;
+      padding: 5%;
+      margin: auto;
+      resize: both;
+      float: left;
+
+}
+.sectioncontent{
+  padding: 10%;
+  padding-top: 1%;
+  margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.containerTab {
+  width: auto;
+
+}
+pDone{
+   text-decoration: line-through;
 }

@@ -4,7 +4,7 @@
   <title>Code Week Site</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+  <script src="js/expandingGrid.js"></script>
   <link rel="stylesheet" href="css/website.css">
   <link rel="stylesheet" href="css/contentcards.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -23,7 +23,7 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Test Page (To Be Removed)</a>
+          <a class="nav-link" href="codeweek.html">App Hub</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="isItFriday.html">Is it Friday?</a>
@@ -39,34 +39,110 @@
     </div>
   </nav>
 
+  <section>
+    <div class="sectioncontent">
+
+      <!-- Testing Page Link -->
+      <div id="link1" class="containerTab" style="display:none">
+        <h1> Testing Page </h1>
+        <p> This is a page dedictated to testing any and all elements that will be added to
+          the website at a later date. </p>
+          <h4><a href="index.html"> Go </a></h4>
+        </div>
+
+      <!-- Is it Friday Link -->
+      <div id="link2" class="containerTab" style="display:none">
+          <h1> Is it Friday </h1>
+          <p> A very useful and important webpage which informs you if it is indeed Friday.</p>
+          <h4><a href="isItFriday.html"> Go </a></h4>
+        </div>
+
+      <!-- progress bar racing Link -->
+      <div id="link3" class="containerTab" style="display:none">
+          <h1> Progress Bar Racing (PBR) </h1>
+          <p> A simple JavaScript application which allows you to race
+            up to 6 progress bars! </p>
+            <h4><a href="index.html"> Go </a></h4>
+          </div>
+        </div>
+      </section>
+
+      <div class="main">
+
+        <!-- First 3 links -->
+        <div class="row">
+          <div class="col">
+            <div class="card" onclick="openTab('link1');">
+              <h2> Test Page </h2>
+              <p>placeholder - needs image</p>
+            </div>
+          </div>
+
+          <div class="col" onclick="openTab('link2');">
+            <div class="card">
+              <h2> Is it Friday? </h2>
+              <p>placeholder - needs image</p>
+            </div>
+          </div>
+
+          <div class="col" onclick="openTab('link3');">
+            <div class="card">
+              <h2> PBR </h2>
+              <p>placeholder - needs image</p>
+            </div>
+          </div>
+        </div>
 
 
-  <div class="main">
+        <!-- 2nd 3 links -->
+        <div class="row">
+          <div class="col">
+            <div class="card" onclick="openTab('link1');">
+              <h2> Link 1 </h2>
+              <p>placeholder - needs image</p>
+            </div>
+          </div>
 
-    <div class="row">
-      <div class="col">
-         <div class="card">
-         <h2> Link 1 </h2>
-         <p>A simple link to take you to the test page</p>
-         <a href="index.html"> click here </a>
+          <div class="col" onclick="openTab('link2');">
+            <div class="card">
+              <h2> Link 2 </h2>
+              <p>placeholder - needs image</p>
+            </div>
+          </div>
+          <div class="col" onclick="openTab('link3');">
+            <div class="card">
+              <h2> Link 3 </h2>
+              <p>placeholder - needs image</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 3rd 3 links -->
+        <div class="row">
+          <div class="col">
+            <div class="card" onclick="openTab('link1');">
+              <h2> Link 1 </h2>
+              <p>placeholder - needs image</p>
+            </div>
+          </div>
+
+          <div class="col" onclick="openTab('link2');">
+            <div class="card">
+              <h2> Link 2 </h2>
+              <p>placeholder - needs image</p>
+            </div>
+          </div>
+          <div class="col" onclick="openTab('link3');">
+            <div class="card">
+              <h2> Link 3 </h2>
+              <p>placeholder - needs image</p>
+            </div>
+          </div>
+
         </div>
       </div>
-      <div class="col">
-         <div class="card">
-           <h2> Link 2 </h2>
-           <p>A simple link to take you to the test page</p>
-           <a href="index.html"> click here </a></div>
-      </div>
-      <div class="col">
-         <div class="card">
-           <h2> Link 3 </h2>
-           <p>A simple link to take you to the test page</p>
-           <a href="index.html"> click here </a></div>
-      </div>
-
-    </div>
-  </div>
 
 
-</body>
-</html>
+    </body>
+    </html>
