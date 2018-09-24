@@ -41,3 +41,10 @@ section{
 pDone{
    text-decoration: line-through;
 }
+.fridayBox{
+  width: 80%;
+font-size: 300%;
+  padding: 15%;
+  margin: auto;
+  float: right;
+}
