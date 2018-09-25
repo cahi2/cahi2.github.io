@@ -17,3 +17,8 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";
 }
+
+function loadImg(n){
+    var x = document.getElementsByClassName("slideshow");
+    x.style.display = "block";
+}
