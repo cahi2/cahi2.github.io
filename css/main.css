@@ -18,3 +18,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.parallaxText{
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
