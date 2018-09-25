@@ -7,7 +7,7 @@ body>div.container {
     resize: both;
     overflow: auto;
 }
-.slideshow {display:none; border:100px solid black; width: 100%;}
+.slideshow {display:none; border:5px solid black; width: 80%;}
 
 .main{
 width: 40%;
