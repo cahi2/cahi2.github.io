@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
   <title>Code Week Site</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <script src="js/website.js"></script>
   <!-- STYLE SHEETS-->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="css/website.css">
@@ -40,18 +40,37 @@
       </form>
     </div>
   </nav>
-
-<div class="fridayBox">
-    <strong> Is it Friday? </strong>
-    <p id="checker"> </p>
+<!--Uses the w3 slideshow tool by passing the day drirectly into the showDivs procedure-->
+<div class="container">
+    <strong> Cat picture of the day. Just dont look for more than 7 days. </strong>
+    <div class =" w3-content w3-display-container">
+        <img class ="slideshow" src = "/images/catPicOfTheDay/day0.png">
+        <img class ="slideshow" src = "/images/catPicOfTheDay/day1.png">
+        <img class ="slideshow" src = "/images/catPicOfTheDay/day2.png">
+        <img class ="slideshow" src = "/images/catPicOfTheDay/day3.jpg">
+        <img class ="slideshow" src = "/images/catPicOfTheDay/day4.jpg">
+        <img class ="slideshow" src = "/images/catPicOfTheDay/day5.jpg">
+        <img class ="slideshow" src = "/images/catPicOfTheDay/day6.png">
+    </div>  
     <script>
           var now = new Date();
-          if (now.getDay() === 5){
-            document.getElementById("checker").innerHTML = "I think it is Friday."
+          if (now.getDay() === 0){
+            "showDivs(0)"
+          }else if (now.getDay() === 1){
+              "showDivs(1)"
+          }else if (now.getDay() === 2){
+              showDivs(2);
+          }else if (now.getDay() === 3){
+              "showDivs(3)"
+          }else if (now.getDay() === 4){
+              "showDivs(4)"
+          }else if (now.getDay() === 5){
+              "showDivs(5)"
           }else{
-              document.getElementById("checker").innerHTML = "It is not Friday."
+              "showDivs(6)"
           }
-         </script>
-       </div>
+    </script>
+</div>
 
   </body>
+  </html>
