@@ -15,10 +15,6 @@ function showDivs(n) {
   for (i = 0; i < x.length; i++){
     x[i].style.display = "none";
   }
-  x[slideIndex].style.display = "block";
-}
-
-function loadImg(n){
-    var x = document.getElementsByClassName("slideshow");
-    x.style.display = "block";
+ x = n;
+  x.style.display = "block";
 }
