@@ -44,9 +44,9 @@
   </nav>
   <section>
     <h1><strong> Madlibs </strong></h1>
-    <p> There was once a person named <? php echo $_POST["firstname"]; ?>
-         .They were known far and wide, as that really <? php echo $_POST["adjective"]; ?>
-        guy who lived in a dollhouse modelled after <? php echo $_POST["place"]; ?>  </p>
+    <p> There was once a person named <?php echo $_POST["firstname"]; ?>
+         .They were known far and wide, as that really <?php echo $_POST["adjective"]; ?>
+        guy who lived in a dollhouse modelled after <?php echo $_POST["place"]; ?>  </p>
 
 
 
