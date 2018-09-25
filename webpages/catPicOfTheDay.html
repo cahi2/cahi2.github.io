@@ -50,6 +50,7 @@
 <div class="container">
     <strong> Cat picture of the day. Just dont look for more than 7 days. </strong>
     <div class =" w3-content w3-display-container">
+        <!--Loads images into slideshow-->
         <img class ="slideshow" src = "/images/catPicOfTheDay/day0.png">
         <img class ="slideshow" src = "/images/catPicOfTheDay/day1.png">
         <img class ="slideshow" src = "/images/catPicOfTheDay/day2.png">
@@ -58,22 +59,32 @@
         <img class ="slideshow" src = "/images/catPicOfTheDay/day5.jpg">
         <img class ="slideshow" src = "/images/catPicOfTheDay/day6.png">
     </div>
+    <div class="container">
+      <p id="caption"></p>
+    </div>
     <script>
           var now = new Date();
           if (now.getDay() === 0){
             "showDivs(0)"
+            document.getElementById("caption").innerHTML = "A slightly shocked cat"
           }else if (now.getDay() === 1){
               "showDivs(1)"
+              document.getElementById("caption").innerHTML = "A cat with it's tail in the air"
           }else if (now.getDay() === 2){
-              showDivs(2);
+              "showDivs(2)"
+              document.getElementById("caption").innerHTML = "A lethal cat fight over some food"
           }else if (now.getDay() === 3){
               "showDivs(3)"
+              document.getElementById("caption").innerHTML = "A 'kool sk8r' cat"
           }else if (now.getDay() === 4){
               "showDivs(4)"
+              document.getElementById("caption").innerHTML = "A relaxed cat"
           }else if (now.getDay() === 5){
               "showDivs(5)"
+              document.getElementById("caption").innerHTML = "A cross-eyed cat"
           }else{
               "showDivs(6)"
+              document.getElementById("caption").innerHTML = "A vegitarian (possibly vegan) cat"
           }
     </script>
 </div>
