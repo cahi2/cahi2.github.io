@@ -44,7 +44,8 @@ pDone{
 .fridayBox{
   width: 80%;
 font-size: 300%;
-  padding: 15%;
+  padding: 20%;
+  padding-top: 15%;
   margin: auto;
   float: right;
 }
