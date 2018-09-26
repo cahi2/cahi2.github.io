@@ -66,7 +66,7 @@ h3 {
   color: #000;
   padding: 5%;
 }
-.smallCaption span.smallBorder {
+.smallCaption div.smalltext {
   background-color: #9f9f9f8f;
   color: #fff;
   padding: 5%;
