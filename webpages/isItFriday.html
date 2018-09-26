@@ -61,19 +61,19 @@ body{
 
     <psmall id="checker"> </psmall>
 
-         <p><br><br><br><br><br><br></p>
+         <p><br><br><br><br></p>
 
-         <img class ="fridayImages" src = "/images/happy.gif">
+         <img class ="fridayImages" src = "/images/happy.gif" width="50%" height="50%">
         <img class ="fridayImages" src = "/images/sad.gif" width="50%" height="50%">
 
          <script>
                var now = new Date();
                if (now.getDay() === 5){
                  document.getElementById("checker").innerHTML = "It is Friday."
-                    showImage(0);
+                    showImage(1);
                }else{
                    document.getElementById("checker").innerHTML = "It is not Friday."
-                   showImage(1);
+                   showImage(0);
                }
               </script>
 </div>
