@@ -30,6 +30,16 @@ h3 {
   font: 20px "Lato", sans-serif;
   color: #111;
 }
+
+
+.sectioncontent{
+  padding: 10%;
+  padding-top: 1%;
+  margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+
+}
+/* CAT OF THE DAY HEADER */
 .caption {
   left: 0;
   top: 50%;
@@ -47,13 +57,7 @@ h3 {
   letter-spacing: 10px;
 }
 
-.sectioncontent{
-  padding: 10%;
-  padding-top: 1%;
-  margin: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-
-}
+/* CAT OF THE DAY FOOTER */
 
 .smallCaption{
   left: 0;
@@ -69,7 +73,4 @@ h3 {
   padding: 5%;
   font-size: 10px;
   letter-spacing: 10px;
-}
-.container span.caption p{
-
 }
