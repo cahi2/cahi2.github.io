@@ -5,7 +5,7 @@ body>div.container {
   margin-right: auto;
   width: 50%;
 }
-.slideshow {display:none; border:5px solid black; width: 80%;}
+.slideshow {display:none; border:5px solid black; width: 100%;}
 
 .main{
 width: 40%;
