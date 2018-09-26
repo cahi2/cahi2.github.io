@@ -50,10 +50,12 @@ body{
 
 
 <!-- Content starts here-------------------------------------------------------->
+<div class="container">
+  <div class="caption">
+    <span class="border"><strong> Is it Friday? </strong></span>
+  </div>
 
-<div class="fridayBox">
-    <strong> Is it Friday? </strong>
-    <p id="checker"> </p>
+    <psmall id="checker"> </psmall>
     <script>
           var now = new Date();
           if (now.getDay() === 5){
@@ -62,6 +64,6 @@ body{
               document.getElementById("checker").innerHTML = "It is not Friday."
           }
          </script>
-       </div>
+</div>
 
   </body>
