@@ -67,14 +67,18 @@ h3 {
   padding: 2%;
 }
 
-.smallCaption span.smallborder {
-  background-color: #9f9f9f8f;
-  color: #fff;
-}
 pSmall {
   background-color: #9f9f9f8f;
   color: #fff;
   padding: 2%;
   font-size: 10px;
   letter-spacing: 10px;
+  border: 1px solid #dee2e6!important;
+}
+
+
+
+
+
+
 }
