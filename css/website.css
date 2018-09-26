@@ -24,26 +24,16 @@ section{
       float: left;
 
 }
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
 .sectioncontent{
   padding: 10%;
   padding-top: 1%;
   margin: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 
-}
-
-.containerTab {
-  width: auto;
-
-}
-pDone{
-   text-decoration: line-through;
-}
-.fridayBox{
-  width: 80%;
-font-size: 300%;
-  padding: 20%;
-  padding-top: 15%;
-  margin: auto;
-  float: right;
 }
