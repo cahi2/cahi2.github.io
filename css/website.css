@@ -31,7 +31,6 @@ h3 {
   color: #111;
 }
 .caption {
-  position: absolute;
   left: 0;
   top: 50%;
   width: 100%;
@@ -40,12 +39,13 @@ h3 {
 }
 
 .caption span.border {
-  background-color: #111;
+  background-color: #9f9f9f8f;
   color: #fff;
-  padding: 18px;
+  padding: 5%;
   font-size: 25px;
   letter-spacing: 10px;
 }
+
 .sectioncontent{
   padding: 10%;
   padding-top: 1%;
