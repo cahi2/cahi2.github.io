@@ -1,42 +1,12 @@
-
-body>div.container {
-  width: 80%;
-  margin: auto;
-    resize: both;
-    overflow: auto;
+/*Styling for table header cells*/
+th {
+  text-align: center;
+  font-size: 30rem;
+  font-family: 'Times New Roman', Times, serif; 
+  font-weight: bold;
 }
-.slideshow {display:none; border:5px solid black; width: 80%;}
-
-.main{
-width: 40%;
-padding: 5%;
-padding-left: 0px;
-margin: auto;
-resize: both;
-float: right;
-}
-
-section{
-  width: 60%;
-      padding: 5%;
-      margin: auto;
-      resize: both;
-      float: left;
-
-}
-.sectioncontent{
-  padding: 10%;
-  padding-top: 1%;
-  margin: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-
-}
-
-.containerTab {
-  width: auto;
-
-}
-
-body>div.textContainer{
-  font-family: 'Times New Roman', Times, serif
+/*Styling for table cells*/
+td {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;  
 }
