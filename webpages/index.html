@@ -1,115 +1,138 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>cahi2's Test Page</title>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Code Week Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SCRIPTS -->
+  <script src="/js/expandingGrid.js"></script>
+
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <!-- Optional theme -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
-  <link rel="stylesheet" href="css/website.css">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="js/website.js"></script>
+  <style>
+  .parallax {
+      /* The image used */
+      background-image: url("/images/test.jpg");
 
-  <!-- Scripts for the progress bar racer -->
-  <script src="js/addAndRemoveBars.js"></script>
-    <script src="js/progressBarRacers.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      /* Set a specific height */
+      min-height: 500px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  </style>
 </head>
-
-
 <body>
 
-  <!-- Code for the nav bar -->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="">Page for tests</a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="codeweek.html">Other Links?</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <!-- NAVBAR -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <a class="navbar-brand" href="#">Navbar</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
 
-  <!-- Page content starts here -->
+     <div class="collapse navbar-collapse" id="navbarColor02">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="main">Home <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="isItFriday.html">Is it Friday?</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="catPicOfTheDay.html">Cat of the Day</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="progressbarracing.html">Progress Bar Racing</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#.html">Employee of the Day</a>
+         </li>
+       </form>
+     </div>
+   </nav>
 
-  <div class="container">
+   <!-- Content starts here-------------------------------------------------------->
 
-    <h2> To Do List </h2>
-     <pDone>Make Hub Page</pDone>
-     <p>Fancy up isItFriday </p>
-     <pDone>Make Progress Bar Racing page </pDone>
-     <p>Make Meme of the day Page </p>
-     <p>Make Madlibs page</p>
-     <p>Make Employee of the day page</p>
+   <div class="bgimg-1">
+     <div class="caption">
+       <span class="border">The Best Website</span>
+     </div>
+   </div>
 
+   <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: center;">
+     <h3 style="text-align:center;">But what is this website about?</h3>
+     <p> This super rad website, is a compilation of <s> stolen W3 schools </s> well researched and cool code.
+       Why is this the best website you ask? Don't think about it.
+     </p>
+   </div>
 
+<!--IS IT FRIDAY -->
+   <div class="bgimg-2">
+     <div class="caption">
+       <span class="border" style="background-color:transparent;font-size:25px;color: #ffffff ;"><strong>Is it Friday?</strong></span>
+     </div>
+   </div>
 
-    <!-- Test for the animated progress bar -->
+   <div style="position:relative;">
+     <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: center;">
+       <p>Possibly the most useful webpage that you'll ever visit. This webpage has been in development for years to inform you of it is indeed Friday.</p>
+     </div>
+   </div>
 
-    <h1>Animated progress bar</h1>
-    <p> This is a test for the progess bar, click the button to see it move.</p>
-    <button class="w3-button w3-light-grey" onclick="addRed()">Red</button>
-    <button class="w3-button w3-light-grey" onclick="addYellow()">Yellow</button>
-    <button class="w3-button w3-light-grey" onclick="addGreen()">Green</button>
-      <button class="w3-button w3-light-grey" onclick="addBlue()">Blue</button>
-    <button class="w3-button w3-light-grey" onclick="addPurple()">Purple</button>
-    <button class="w3-button w3-light-grey" onclick="addPink()">Pink</button>
-    <p> </p>
-    <div class="w3-light-grey">
-      <div id="racer0" class="w3-container w3-red" style="height:24px;width:1%; display: none;"></div>
-      <div id="racer1" class="w3-container w3-yellow" style="height:24px;width:1%; display: none;"></div>
-      <div id="racer2" class="w3-container w3-green" style="height:24px;width:1%; display: none;"></div>
-      <div id="racer3" class="w3-container w3-blue" style="height:24px;width:1%; display: none;"></div>
-      <div id="racer4" class="w3-container w3-purple" style="height:24px;width:1%; display: none;"></div>
-      <div id="racer5" class="w3-container w3-pink" style="height:24px;width:1%; display: none;"></div>
+<!--CAT OF THE DAY -->
+   <div class="bgimg-3">
+     <div class="caption">
+       <span class="border" style="background-color:transparent;font-size:25px;color: #ffffff ;"><strong>Cat of the Day</strong></span>
+     </div>
+   </div>
 
-    </div>
-    <p> <p>
-    <button class="w3-button w3-light-grey" onclick="move()">Race Progress Bars</button>
+   <div style="position:relative;">
+     <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: center;">
+       <p>Are you feeling down? Do you look out the window and think:
+         "Boy the world sure does suck". Well worry no longer, as this
+         simple, yet effective, app will take all those worries away from you
+         by showing you a new cat picture everyday! * <br>
+         *cat pictures are not actually new everyday, each picture will loop after a week.</p>
+     </div>
+   </div>
 
+<!--PROGRESS BAR RACING -->
+   <div class="bgimg-4">
+     <div class="caption">
+       <span class="border" style="background-color:transparent;font-size:25px;color: #ffffff ;"><strong>Progress Bar Racing</strong></span>
+     </div>
+   </div>
 
-    <!-- Images for slideshow -->
-    <h2>Slideshow Test </h2>
-    <div class =" w3-content w3-display-container">
-      <img class ="slideshow" src = "/images/test.jpg">
-      <img class ="slideshow" src = "/images/test2.jpg">
-      <img class ="slideshow" src = "/images/test3.jpg">
+   <div style="position:relative;">
+     <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: center;">
+       <p>This is the most intense game you'll ever play. Allowing up to 6 players, you can race loading bars for... fun.</p>
+     </div>
+   </div>
 
-      <!-- Buttons for slideshow -->
-      <button class="btn btn-primary btn-lg" onClick="plusDivs(-1)">&#10094;</button>
-      <button class="btn btn-primary btn-lg" onClick="plusDivs(1)">&#10095;</button>
-    </div>
+<!-- EMPLOYEE OF THE DAY -->
+   <div class="bgimg-5">
+     <div class="caption">
+       <span class="border" style="background-color:transparent;font-size:25px;color: #ffffff ;"><strong>Employee of the Day</strong></span>
+     </div>
+   </div>
 
+   <div style="position:relative;">
+     <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: center;">
+       <p>A deceptively simple webpage which displays the employee of the day.</p>
+     </div>
+   </div>
 
-
-    <!-- Random junk -->
-    <p>Next steps</p>
-    <ul>
-      <li>Change the page title? You probably don't want a site called "My First Website", so change it in index.html - you'll find it in two places, the first is in a &lt;title&gt; tag, the second is further down, in the nav section.</li>
-      <li>Add a favicon: The little icon that appears to the left of every tab you have open is called a favicon: if you add a file called favicon.ico (a 16x16 pixel image) to your repository, it will appear there for every visitor! You can create one for free <a href="http://onlinefavicon.com/">here!</a></li>
-      <li>Move this set of instructons to a new area and link to it from the nav</li>
-      <li>Try adding some new content to this page (index.html). <a href="https://www.w3schools.com/tags/">W3Schools</a> has a list of tags you can include - why not try them out?</li>
-      <li>Add some images</li>
-      <img src = "/images/test.jpg" style = "border:5px solid black">
-      <li>Add some <i><u><b>styling</b></u></i></li>
-      <li>Add some interaction (show/hide)</li>
-      <li>Try out different screen sizes</li>
-      <li>Maybe you want your own domain name instead of github.io? <a href="https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages">This link</a> has details on how you can do this with a namecheap domain name.</li>
-    </ul>
-  </div>
-</body>
-</html>
+   <div class="bgimg-1">
+     <div class="caption">
+       <span class="border">COOL!</span>
+     </div>
+   </div>
+        </body>
+        </html>
