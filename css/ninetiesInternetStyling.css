@@ -5,8 +5,9 @@ th {
   font-family: 'Times New Roman', Times, serif; 
   font-weight: bold;
 }
-/*Styling for table cells*/
+/*Styling for links in left colum*/
 .leftCol {
   text-align: center;
+  text-decoration: underline;
   font-family: 'Times New Roman', Times, serif;  
 }
