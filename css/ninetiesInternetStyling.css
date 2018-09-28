@@ -6,7 +6,7 @@ th {
   font-weight: bold;
 }
 /*Styling for table cells*/
-td {
+.leftCol {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;  
 }
