@@ -3,10 +3,12 @@
 var slideIndex = 1;
 showDivs(slideIndex);
 
+//Code that increases/decreases the slideshow. Buttons interact with this
 function plusDivs(n) {
   showDivs(slideIndex += n);
 }
 
+//Code which sets all the pictures in the slideshow to hidden, except the one the index number matches
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("slideshow");
