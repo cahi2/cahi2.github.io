@@ -60,7 +60,10 @@ h3 {
   font: 20px "Lato", sans-serif;
   color: #111;
 }
-a {
+a:link {
+  color:  #111;
+}
+a:visited {
   color:  #111;
 }
 
