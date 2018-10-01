@@ -61,10 +61,14 @@ h3 {
   color: #111;
 }
 a:link {
-  color:  #111;
+  color:  white;
+  text-decoration: none;
 }
 a:visited {
-  color:  #111;
+  color:  white;
+}
+a:hover {
+    color: hotpink;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
