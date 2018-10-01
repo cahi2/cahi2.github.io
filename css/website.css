@@ -1,4 +1,4 @@
-
+/* STYLING FOR ALL*/
 body>div.container {
   display: block;
   margin-left: auto;
@@ -81,8 +81,8 @@ pSmall {
   border: 1px solid #dee2e6!important;
 }
 
-barsBox {
-width: 80%;
-padding: auto;
-
+/* PROGRESS BAR RACING */
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    color: #000!important;
+    background-color: #f1f1f163!important;
 }
