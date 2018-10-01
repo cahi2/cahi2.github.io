@@ -5,6 +5,10 @@ body>div.container {
   margin-right: auto;
   width: 80%;
 }
+
+.container {
+  text-align: center;
+}
 .slideshow {display:none; border:5px solid black; width: 100%;}
 
 .main{
@@ -77,9 +81,8 @@ pSmall {
   border: 1px solid #dee2e6!important;
 }
 
-
-
-
-
+barsBox {
+width: 80%;
+padding: auto;
 
 }
