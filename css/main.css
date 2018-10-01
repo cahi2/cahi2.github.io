@@ -68,7 +68,8 @@ a:visited {
   color:  white;
 }
 a:hover {
-    color: hotpink;
+    color: red;
+    text-decoration: none;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
