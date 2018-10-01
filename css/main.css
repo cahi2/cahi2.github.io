@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
+  font-family: 'Permanent Marker', cursive;
   color: #777;
 }
 
@@ -44,6 +44,7 @@ body, html {
   width: 100%;
   text-align: center;
   color: #000;
+
 }
 
 .caption span.border {
@@ -52,6 +53,7 @@ body, html {
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+  font-family: 'Permanent Marker', cursive;
 }
 
 h3 {
