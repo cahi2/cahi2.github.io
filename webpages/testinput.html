@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- SCRIPTS -->
-
+  <script>function confirmInput() {
+      fname = document.forms[0].fname.value;
+      alert("Hello " + fname + "! You will now be redirected to www.w3Schools.com");
+  } </script>
   <!-- STYLING -->
   <style>
 
@@ -55,7 +58,10 @@
 <!-- Content starts here-------------------------------------------------------->
 <div class="container">
 
-
+  <form onsubmit="confirmInput()">
+  Enter your name: <input id="fname" type="text" size="20">
+  <input type="submit">
+  </form>
   </div>
 
   </body>
